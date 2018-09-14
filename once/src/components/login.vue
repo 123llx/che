@@ -15,6 +15,7 @@
   export default {
     methods: {
       login() {
+         _hmt.push(['_trackEvent', '汽车报价', 'tap', '登陆按钮点击'])
         let username = this.$refs.username.value
         let password = this.$refs.password.value
         if (username == '1602E' && password == '1602E') {
